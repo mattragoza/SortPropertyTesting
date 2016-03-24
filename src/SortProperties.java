@@ -26,7 +26,7 @@ public class SortProperties
 	}
 	
 	@Test
-	public void sameLength()
+	public void propertySameLength()
 	{
 		for (int[] array : arrays)
 		{
@@ -38,7 +38,7 @@ public class SortProperties
 	}
 	
 	@Test
-	public void nonDecreasing()
+	public void propertyNonDecreasing()
 	{
 		for (int[] array : arrays)
 		{
@@ -58,7 +58,7 @@ public class SortProperties
 	}
 	
 	@Test
-	public void equalOrIncreasing()
+	public void propertyEqualOrIncreasing()
 	{
 		for (int[] array : arrays)
 		{
@@ -78,7 +78,7 @@ public class SortProperties
 	}
 	
 	@Test
-	public void allElementsPresent()
+	public void propertyAllElementsPresent()
 	{
 		for (int[] array : arrays)
 		{
@@ -108,7 +108,7 @@ public class SortProperties
 	}
 
 	@Test
-	public void noExtraElements()
+	public void propertyNoExtraElements()
 	{
 		for (int[] array : arrays)
 		{
@@ -134,7 +134,7 @@ public class SortProperties
 	}
 
 	@Test
-	public void testDeterministic()
+	public void propertyDeterministic()
 	{
 		for (int[] array : arrays)
 		{
@@ -146,7 +146,7 @@ public class SortProperties
 	}
 	
 	@Test
-	public void testIdempotent()
+	public void propertyIdempotent()
 	{
 		for (int[] array : arrays)
 		{
